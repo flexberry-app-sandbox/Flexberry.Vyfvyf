@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-vyfvyf-класс-e",
+  "editForm": "i-i-s-vyfvyf-класс-e",
+  "external": false,
+  "caption": "Класс",
+  "name": "IISVyfvyfКлассL",
+  "className": "КлассL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-vyfvyf-класс",
+      "modelProjection": "КлассL"
+    }
+  ]
+}

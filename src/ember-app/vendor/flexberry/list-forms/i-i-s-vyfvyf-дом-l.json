@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-vyfvyf-дом-e",
+  "editForm": "i-i-s-vyfvyf-дом-e",
+  "external": false,
+  "caption": "Дом",
+  "name": "IISVyfvyfДомL",
+  "className": "ДомL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-vyfvyf-дом",
+      "modelProjection": "ДомL"
+    }
+  ]
+}

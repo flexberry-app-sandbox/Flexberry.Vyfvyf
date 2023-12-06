@@ -1,0 +1,106 @@
+﻿{
+  "name": "IISVyfvyfКласс",
+  "modelName": "i-i-s-vyfvyf-класс",
+  "className": "Класс",
+  "nameSpace": "IIS.Vyfvyf",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "ладно",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "дом",
+      "relatedTo": "i-i-s-vyfvyf-дом",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "КлассE",
+      "modelName": "i-i-s-vyfvyf-класс",
+      "attrs": [
+        {
+          "name": "ладно",
+          "caption": "Ладно",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "Номер",
+          "lookupValueField": "номер",
+          "relationName": "Дом",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "номер",
+              "caption": "Номер",
+              "hidden": true,
+              "index": 2
+            }
+          ],
+          "index": 1,
+          "type": "standard",
+          "caption": "Дом",
+          "name": "дом",
+          "relatedTo": "i-i-s-vyfvyf-дом",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    },
+    {
+      "name": "КлассL",
+      "modelName": "i-i-s-vyfvyf-класс",
+      "attrs": [
+        {
+          "name": "ладно",
+          "caption": "Ладно",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Дом",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "номер",
+              "caption": "Номер",
+              "hidden": false,
+              "index": 1
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Номер",
+          "name": "дом",
+          "relatedTo": "i-i-s-vyfvyf-дом",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

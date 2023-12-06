@@ -1,0 +1,75 @@
+﻿{
+  "name": "IISVyfvyfДом",
+  "modelName": "i-i-s-vyfvyf-дом",
+  "className": "Дом",
+  "nameSpace": "IIS.Vyfvyf",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "номер",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "статус",
+      "type": "i-i-s-vyfvyf-прикол",
+      "flexberryType": "Прикол",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ДомE",
+      "modelName": "i-i-s-vyfvyf-дом",
+      "attrs": [
+        {
+          "name": "номер",
+          "caption": "Номер",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "статус",
+          "caption": "Статус",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "ДомL",
+      "modelName": "i-i-s-vyfvyf-дом",
+      "attrs": [
+        {
+          "name": "номер",
+          "caption": "Номер",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "статус",
+          "caption": "Статус",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

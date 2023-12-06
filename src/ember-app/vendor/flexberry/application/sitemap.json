@@ -1,0 +1,51 @@
+﻿{
+  "applicationCaption": "Vyfvyf",
+  "applicationTitle": "Vyfvyf",
+  "items": [
+    {
+      "link": null,
+      "menuName": "vyfvyf",
+      "caption": "Vyfvyf",
+      "title": "Vyfvyf",
+      "children": [
+        {
+          "link": "i-i-s-vyfvyf-дом-l",
+          "menuName": null,
+          "caption": "Дом",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-vyfvyf-класс-l",
+          "menuName": null,
+          "caption": "Класс",
+          "title": "",
+          "children": null
+        }
+      ]
+    },
+    {
+      "link": null,
+      "menuName": "new-folder1",
+      "caption": "NewFolder1",
+      "title": "NewFolder1",
+      "children": [
+        {
+          "link": "i-i-s-vyfvyf-дом-l",
+          "menuName": null,
+          "caption": "ДомL",
+          "title": "Дом",
+          "children": null
+        },
+        {
+          "link": "i-i-s-vyfvyf-класс-l",
+          "menuName": null,
+          "caption": "КлассL",
+          "title": "Класс",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}
