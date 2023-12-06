@@ -9,7 +9,7 @@ CREATE TABLE "Дом"
 
 	"Номер" NUMBER(10) NULL,
 
-	"Статус" NVARCHAR2(1) NULL,
+	"Статус" NVARCHAR2(11) NULL,
 
 	 PRIMARY KEY ("primaryKey")
 ) ;

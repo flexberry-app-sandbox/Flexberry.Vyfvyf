@@ -28,13 +28,13 @@ export default Controller.extend({
             link: 'i-i-s-vyfvyf-дом-l',
             caption: i18n.t('forms.application.sitemap.vyfvyf.i-i-s-vyfvyf-дом-l.caption'),
             title: i18n.t('forms.application.sitemap.vyfvyf.i-i-s-vyfvyf-дом-l.title'),
-            icon: 'address card',
+            icon: 'chart bar',
             children: null
           }, {
             link: 'i-i-s-vyfvyf-класс-l',
             caption: i18n.t('forms.application.sitemap.vyfvyf.i-i-s-vyfvyf-класс-l.caption'),
             title: i18n.t('forms.application.sitemap.vyfvyf.i-i-s-vyfvyf-класс-l.title'),
-            icon: 'suitcase',
+            icon: 'book',
             children: null
           }]
         }, {
@@ -46,13 +46,12 @@ export default Controller.extend({
             link: 'i-i-s-vyfvyf-дом-l',
             caption: i18n.t('forms.application.sitemap.new-folder1.i-i-s-vyfvyf-дом-l.caption'),
             title: i18n.t('forms.application.sitemap.new-folder1.i-i-s-vyfvyf-дом-l.title'),
-            icon: 'address card',
             children: null
           }, {
             link: 'i-i-s-vyfvyf-класс-l',
             caption: i18n.t('forms.application.sitemap.new-folder1.i-i-s-vyfvyf-класс-l.caption'),
             title: i18n.t('forms.application.sitemap.new-folder1.i-i-s-vyfvyf-класс-l.title'),
-            icon: 'phone',
+            icon: 'calendar',
             children: null
           }]
         }

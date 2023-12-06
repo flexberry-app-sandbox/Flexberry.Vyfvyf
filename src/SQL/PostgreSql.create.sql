@@ -6,7 +6,7 @@
 CREATE TABLE Дом (
  primaryKey UUID NOT NULL,
  Номер INT NULL,
- Статус VARCHAR(1) NULL,
+ Статус VARCHAR(11) NULL,
  PRIMARY KEY (primaryKey));
 
 

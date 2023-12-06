@@ -35,7 +35,7 @@ namespace IIS.Vyfvyf
         // *** Start programmer edit section *** (Прикол.Ладно CustomAttributes)
 
         // *** End programmer edit section *** (Прикол.Ладно CustomAttributes)
-        [Caption("5")]
+        [Caption("готов")]
         Ладно = 3,
         
         /// <summary>
@@ -44,7 +44,7 @@ namespace IIS.Vyfvyf
         // *** Start programmer edit section *** (Прикол.пока CustomAttributes)
 
         // *** End programmer edit section *** (Прикол.пока CustomAttributes)
-        [Caption("6")]
+        [Caption("не готова")]
         пока = 4,
         
         /// <summary>
@@ -53,7 +53,7 @@ namespace IIS.Vyfvyf
         // *** Start programmer edit section *** (Прикол.пвапва CustomAttributes)
 
         // *** End programmer edit section *** (Прикол.пвапва CustomAttributes)
-        [Caption("9")]
+        [Caption("супер класс")]
         пвапва = 8,
     }
 }
